@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #aaa;
+    height: 100vh;
+
+}
+
+.container{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin: 10px auto;
+    background-color: #444444b2;
+}
+
+.box{
+    width: 40px;
+    height: 40px;
+    margin: 5px 10px;
+    cursor: pointer;
+    border: 2px solid #333;
+    opacity: 0.5;
+}
+
+.red{
+    background-color: red;
+}
+
+.black{
+    background-color: #000000;
+}
+
+.green{
+    background-color: #00ff55;
+}
+
+.yellow{
+    background-color: #fc0;
+}
+
+.active{
+    opacity: 1;
+    border: 2px solid #fff;
+}
+
+.the-box{
+    background-color: #fff;
+    width: 50%;
+    height: 250px;
+    margin: 20px auto;
+    border: 2px solid #fff;
+
+}
